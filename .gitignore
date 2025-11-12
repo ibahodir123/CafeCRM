@@ -1,0 +1,32 @@
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+.vs/
+
+# Local tools and caches
+.dotnet/
+.dotnet-tools/
+.tools/
+.config/
+
+# Databases / generated data
+Data/**/*.db
+src/**/Data/**/*.db
+
+# Temp files
+*.tmp
+temp_*
+*.log
+
+# User-specific
+*.user
+*.suo
+
+# IDE
+.idea/
+.vscode/
+
+# Test outputs
+**/TestResults/
